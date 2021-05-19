@@ -1,6 +1,6 @@
 # OpenClassrooms projet #4 du parcours developpeur web
 
-Lien [GitHub Pages] (https://jeanmarcj.github.io/JeanMarcJuif_4_09022021-2/)
+[Lien GitHub Pages](https://jeanmarcj.github.io/JeanMarcJuif_4_09022021-2/)
 
 ## Optimiser un site web existant
 
