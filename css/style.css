@@ -18,6 +18,7 @@ a:hover {
     cursor: pointer;
 }
 
+/* A Effacer le fichier pageload-spinner.gif n'existe pas */
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -91,7 +92,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("../img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -809,16 +810,17 @@ h4 {
     border-color: #364577!important;
 }
 
+/* Non utilisé à effacer */
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("../img/dots-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("../img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("../img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
