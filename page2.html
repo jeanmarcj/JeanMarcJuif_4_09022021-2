@@ -80,45 +80,54 @@
 					<div class="col-sm-6">
 						<form 	id="form_1"
 								novalidate success-msg="Your message has been sent !"
-								fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience !">
+								fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience !"
+								action="./includes/form_1.php"
+								method="post"
+						>								
 							<div class="form-group">
-								<label>Nom</label>
+								<label for="name">Nom</label>
 								<input 	id="name"
+										name="name"
 										class="form-control"
 										required
 								/>
 							</div>
 							<div class="form-group">
-								<label>Adresse email</label>
+								<label for="email">Adresse email</label>
 								<input
 										id="email"
+										name="email"
 										class="form-control"
 										type="email"
 										required
 								/>
 							</div>
 							<div class="form-group">
-								<label>Comment nous avez-vous connu ?</label>
+								<label for="input_504">Comment nous avez-vous connu ?</label>
 								<input
 										id="input_504"
+										name="input_504"
 										class="form-control"
 										type="text"
 										required
 								/>
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="message">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 								</label>
 								<textarea
 										id="message"
+										name="message"
 										class="form-control"
 										rows="4"
 										cols="50"
 										required>
 								</textarea>
 							</div> 
-							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
+									type="submit"
+							>
 								Envoyer
 							</button>
 						</form>
@@ -127,7 +136,7 @@
 						<p>
 							<a href="mailto:contact@lachouetteagence.com">
 								contact@lachouetteagence.com
-								</a>
+							</a>
 							<br>
 							2 place Sathonay 69001 Lyon
 							<br>
