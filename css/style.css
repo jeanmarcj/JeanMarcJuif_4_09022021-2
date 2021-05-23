@@ -14,8 +14,13 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer;
+}
+
+a:focus {
+    text-decoration: underline;
+    border: 1px solid #F3976C;
 }
 
 /* A Effacer le fichier pageload-spinner.gif n'existe pas */
