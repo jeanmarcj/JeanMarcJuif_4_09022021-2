@@ -17,6 +17,14 @@ button {
     color: white;
 }
 
+.primary-color {
+    color: #AD1900;
+}
+
+.black {
+    color: black;
+}
+
 a:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -143,7 +151,8 @@ a:focus {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    /* color: rgba(255, 255, 255, .6); */
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -661,7 +670,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
@@ -782,7 +791,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white;
+    font-size: 2.5rem;
 }
 
 .btn-atomic-tangerine {
