@@ -1043,17 +1043,17 @@ h4 {
         text-align: center;
     }
 }
-#bloc-2-services > div > div > div > figure > blockquote > p.citation {
+
+#bloc-2-services > div > header > div > h2.baseline {
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: 2rem auto;
+}
+
+#bloc-2-services > div > article > div > figure > blockquote > p.citation {
     /* border: 1px solid red; */
     font-size: 20px;
     font-weight: 600;
     width: 88%;
     margin: 0 auto;
-}
-
-#bloc-2-services > div > div:nth-child(1) > div > h2.baseline {
-    border: 1px solid red;
-    width: 70%;
-    margin: 2rem auto;
-
 }
