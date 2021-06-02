@@ -73,10 +73,10 @@
 		<!-- bloc-6 END -->
 
 		<!-- bloc-7 formulaire de contact-->
-		<div class="bloc bgc-white l-bloc" id="bloc-7">
+		<section class="bloc bgc-white l-bloc" id="bloc-7">
 			<div class="container bloc-lg">
 				<div class="row">
-					<section class="col-sm-6">
+					<div class="col-sm-6">
 						<form 	id="form_1"
 								novalidate
 								action="./includes/form_1.php"
@@ -129,35 +129,37 @@
 								Envoyer
 							</button>
 						</form>
-					</section>
-					<adress role="contentinfo" class="col-sm-6 black" itemscope itemtype="http://schema.org/Organization">
-						<strong itemprop="name" class="h2">
-							La Chouette Agence
-						</strong>
-						<br>
-						<div itemprop="adress" itemscope itemptype="https://schema.org/PostalAddress">
-							<span itemprop="streetAdress" class="h3">
-								2 place Sathonay
-							</span>
+					</div>
+					<div class="col-sm-6 black">
+						<address role="contentinfo" itemscope itemtype="http://schema.org/Organization">
+							<strong itemprop="name" class="h2">
+								La Chouette Agence
+							</strong>
 							<br>
-							<span itemprop="postalCode" class="h3">
-								F-69001
-							</span>
-							<span itemprop="adressLocality" class="h3">
-								Lyon, France
-							</span>
-						</div>
-						<br>
-						<a title ="Envoyez-nous un mail" class="h4" href="mailto:contact@lachouetteagence.com">
-							<span itemprop="email">contact@lachouetteagence.com</span>
-						</a>
-						<br>
-						<br>
-						<strong class="h4 primary-color">Ouvert du lundi au vendredi, de 9h à 18h</strong>
-					</adress>
+							<div itemprop="adress" itemscope>
+								<span itemprop="streetAdress" class="h3">
+									2 place Sathonay
+								</span>
+								<br>
+								<span itemprop="postalCode" class="h3">
+									F-69001
+								</span>
+								<span itemprop="adressLocality" class="h3">
+									Lyon, France
+								</span>
+							</div>
+							<br>
+							<a title ="Envoyez-nous un mail" class="h4" href="mailto:contact@lachouetteagence.com">
+								<span itemprop="email">contact@lachouetteagence.com</span>
+							</a>
+							<br>
+							<br>
+							<strong class="h4 primary-color">Ouvert du lundi au vendredi, de 9h à 18h</strong>
+						</address>
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- bloc-7 END -->
 
 		<!-- ScrollToTop Button -->
