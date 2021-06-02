@@ -1051,22 +1051,26 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    #bloc-4-portfolio > div > div > article {
+        margin-bottom: 40px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .portfolio-thumb {
+        margin: 0 auto 32px auto;
+    }
 }
 
 #bloc-2-services > div > header > div > h2.baseline {
-    /* border: 1px solid red; */
     width: 70%;
     margin: 2rem auto;
 }
 
 #bloc-2-services > div > article > div > figure > blockquote > p.citation {
-    /* border: 1px solid red; */
     font-size: 20px;
     font-weight: 600;
     width: 88%;
